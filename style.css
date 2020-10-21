@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    font-family: Euphemia UCAS;
+    font-weight: lighter;
+    background-color: #e0d0d2;
+    color: black;
+    text-align:justify-all;
+}
+h1{ 
+	color: #799ea2;
+	text-align: center;
+	letter-spacing: 10px 
+	font-family: 'Playfair Display', serif;
+}
+h2{ 
+	color:#799ea2;
+	text-align: center;
+	letter-spacing: 5px
+	font-family:'Playfair Display', serif;
+}
+
+a { 
+
+	font-family:Euphemia UCAS;
+	text-decoration: none;
+	color:#799ea2;
+	font-weight:600;
+	font-size:16px;
+}
+a:hover {
+	color: black;
+}
+
+/*custom design with class*/
+.container {
+width: 1400px;
+margin: 40 auto;
+}
+
+.fond-blanc {
+	background-color:white;
+	border:1px solid white;
+	padding:40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0,1);
+	border-radius:10px;
+	margin:20px;
+	text-align:center;
+}
+#image-circle {
+	border-radius: 30px
+}
+
+.btn-green {
+	background-color:#799ea2; 
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list li {
+	display:inline;
+	padding: 10px;
+}	
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom:40px;
+}
